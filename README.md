@@ -1,4 +1,4 @@
-# Hackpad
+<img width="1125" height="883" alt="Screenshot_20260130_153652" src="https://github.com/user-attachments/assets/6281638c-926c-41b1-a1e5-9e27b903302e" /><img width="1255" height="1003" alt="Screenshot_20260130_153802" src="https://github.com/user-attachments/assets/fd22075c-7b99-49df-8490-aaaeaedaa168" /># Hackpad
 My personal macropad with 9 keys. There is also a mini led that indicates status.
 
 I made this for Hack Club's Blueprint.
@@ -30,3 +30,11 @@ The macropad uses kmk firmware, which is Python-based and found at https://githu
 The XIAO also needs circuitpython to be fully compatible.
 
 For assembly, download circuitpython to the XIAO drive, then upload the kmk file and main.py to the board.
+
+<img width="1125" height="883" alt="Screenshot_20260130_153652" src="https://github.com/user-attachments/assets/81679bad-a276-474f-8ede-e2910f074055" />
+
+<img width="1255" height="1003" alt="Screenshot_20260130_153802" src="https://github.com/user-attachments/assets/24c402d8-9a27-48e3-a34b-8b6dcfe5c17e" />
+
+<img width="1336" height="912" alt="Screenshot_20260130_153828" src="https://github.com/user-attachments/assets/35f2bc26-9f98-4f1b-8c6f-d9ec250c84dd" />
+
+<img width="579" height="856" alt="Screenshot_20260130_154007" src="https://github.com/user-attachments/assets/e266e348-c39f-4470-9412-c1693464450a" />
