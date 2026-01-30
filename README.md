@@ -1,4 +1,4 @@
-<img width="1125" height="883" alt="Screenshot_20260130_153652" src="https://github.com/user-attachments/assets/6281638c-926c-41b1-a1e5-9e27b903302e" /><img width="1255" height="1003" alt="Screenshot_20260130_153802" src="https://github.com/user-attachments/assets/fd22075c-7b99-49df-8490-aaaeaedaa168" /># Hackpad
+# Hackpad
 My personal macropad with 9 keys. There is also a mini led that indicates status.
 
 I made this for Hack Club's Blueprint.
