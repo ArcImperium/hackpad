@@ -3,10 +3,20 @@ My personal macropad with 9 keys. There is also a mini led that indicates status
 
 I made this for Hack Club's Blueprint.
 
+# Parts
+- PCB (1)
+- Seeed XIAO RP2040 (1)
+- MX-Style Switches (9)
+- Blank DSA Keycaps (9)
+- SK6812 MINI-E LED (1)
+- M3x16mm Screws (4)
+- M3x5mx4mm Heatset Inserts (4)
+- 3d Printed Case (1)
+
 # Hardware
 The macropad uses a 90mm x 61mm PCB board.
 I used KiCAD to design the PCB.
-It includes a Seeed Studio XIAO RP2040 DIP as the micrcontroller, 9 switches for keys, and a mini led.
+It includes a Seeed Studio XIAO RP2040 as the micrcontroller, 9 switches for keys, and a mini led.
 Each key is wired to its own pin on the XIAO, and they all connect to ground.
 
 # Case
