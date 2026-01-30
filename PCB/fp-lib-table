@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PLO")(type "KiCad")(uri "/home/elip2/kicad-libs/OPL_Kicad_Library/Seeed Studio XIAO Series Library")(options "")(descr ""))
+  (lib (name "OLED")(type "KiCad")(uri "/home/elip2/kicad-libs/KiCad-SSD1306-0.91-OLED-4pin-128x32.pretty")(options "")(descr ""))
+)
