@@ -1310,16 +1310,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 82.55) (xy 175.26 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07469bc4-171e-470d-b680-acb34db7f7fa")
-	)
-	(wire
-		(pts
 			(xy 120.65 86.36) (xy 109.22 86.36)
 		)
 		(stroke
@@ -1400,7 +1390,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 82.55) (xy 175.26 82.55)
+			(xy 156.21 82.55) (xy 184.15 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1620,6 +1610,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 82.55) (xy 184.15 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5358cc1-aa42-4af8-b162-ad5a4bcfe323")
+	)
+	(wire
+		(pts
 			(xy 120.65 71.12) (xy 81.28 71.12)
 		)
 		(stroke
@@ -1779,73 +1779,6 @@
 			(project ""
 				(path "/9555202b-ebbd-482c-9502-3bb11f8a47c0"
 					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 167.64 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18da43a6-af68-48ea-a6ca-69517a3c7178")
-		(property "Reference" "#PWR04"
-			(at 171.45 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 163.83 69.8499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 167.64 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33b7f916-e691-4b2b-a263-e6dd730fb57c")
-		)
-		(instances
-			(project ""
-				(path "/9555202b-ebbd-482c-9502-3bb11f8a47c0"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2160,16 +2093,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 69.85 90)
+		(at 191.77 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "32f7ca9e-caf8-4fcc-8ee6-c007f449c4a3")
-		(property "Reference" "#PWR03"
-			(at 189.23 69.85 0)
+		(uuid "2e9788d9-bd05-48c8-aad6-8c9f4ff85c14")
+		(property "Reference" "#PWR04"
+			(at 198.12 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2178,7 +2111,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 69.8499 90)
+			(at 195.58 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2187,7 +2120,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 69.85 0)
+			(at 191.77 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2196,7 +2129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 69.85 0)
+			(at 191.77 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2205,7 +2138,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 69.85 0)
+			(at 191.77 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2214,7 +2147,74 @@
 			)
 		)
 		(pin "1"
-			(uuid "88a635d7-5b27-4fb0-8dad-af9da46fc2e8")
+			(uuid "b727bc8f-6a18-4668-924c-e265861fedba")
+		)
+		(instances
+			(project ""
+				(path "/9555202b-ebbd-482c-9502-3bb11f8a47c0"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 176.53 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "412170e4-8345-4b0f-adea-f6a0863e5f73")
+		(property "Reference" "#PWR03"
+			(at 180.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 172.72 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 176.53 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a974777-3eca-468f-a9b7-1af04f91a60b")
 		)
 		(instances
 			(project ""
@@ -2363,7 +2363,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812MINI")
-		(at 175.26 69.85 0)
+		(at 184.15 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2372,7 +2372,7 @@
 		(fields_autoplaced yes)
 		(uuid "6240477a-86b9-4dc6-8545-bc9837906b60")
 		(property "Reference" "D1"
-			(at 187.96 63.4298 0)
+			(at 196.85 65.6746 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2380,7 +2380,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 187.96 65.9698 0)
+			(at 196.85 68.2146 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2388,7 +2388,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 176.53 77.47 0)
+			(at 191.77 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,7 +2398,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 177.8 79.375 0)
+			(at 193.675 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2408,7 +2408,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 175.26 69.85 0)
+			(at 184.15 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
