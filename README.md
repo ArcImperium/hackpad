@@ -31,10 +31,10 @@ The XIAO also needs circuitpython to be fully compatible.
 
 For assembly, download circuitpython to the XIAO drive, then upload the kmk file and main.py to the board.
 
+<img width="1405" height="1013" alt="Screenshot_20260131_113800" src="https://github.com/user-attachments/assets/0831af5f-b5d0-4492-bc58-e6faaf85e881" />
+
+<img width="1434" height="886" alt="Screenshot_20260131_113843" src="https://github.com/user-attachments/assets/47557325-33d2-425c-ab23-2f3be7684e13" />
+
 <img width="1125" height="883" alt="Screenshot_20260130_153652" src="https://github.com/user-attachments/assets/81679bad-a276-474f-8ede-e2910f074055" />
-
-<img width="1255" height="1003" alt="Screenshot_20260130_153802" src="https://github.com/user-attachments/assets/24c402d8-9a27-48e3-a34b-8b6dcfe5c17e" />
-
-<img width="1336" height="912" alt="Screenshot_20260130_153828" src="https://github.com/user-attachments/assets/35f2bc26-9f98-4f1b-8c6f-d9ec250c84dd" />
 
 <img width="579" height="856" alt="Screenshot_20260130_154007" src="https://github.com/user-attachments/assets/e266e348-c39f-4470-9412-c1693464450a" />
