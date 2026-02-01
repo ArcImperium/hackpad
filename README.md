@@ -33,8 +33,8 @@ For assembly, download circuitpython to the XIAO drive, then upload the kmk file
 
 <img width="1405" height="1013" alt="Screenshot_20260131_113800" src="https://github.com/user-attachments/assets/0831af5f-b5d0-4492-bc58-e6faaf85e881" />
 
-<img width="1434" height="886" alt="Screenshot_20260131_113843" src="https://github.com/user-attachments/assets/47557325-33d2-425c-ab23-2f3be7684e13" />
+<img width="1293" height="871" alt="Screenshot_20260201_124407" src="https://github.com/user-attachments/assets/02535d77-f262-480d-843e-44c46589cefa" />
 
 <img width="1125" height="883" alt="Screenshot_20260130_153652" src="https://github.com/user-attachments/assets/81679bad-a276-474f-8ede-e2910f074055" />
 
-<img width="579" height="856" alt="Screenshot_20260130_154007" src="https://github.com/user-attachments/assets/e266e348-c39f-4470-9412-c1693464450a" />
+<img width="618" height="856" alt="Screenshot_20260201_124529" src="https://github.com/user-attachments/assets/c39c8e52-7151-4075-8cd7-b1ca2692bf9f" />
